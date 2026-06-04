@@ -1,9 +1,9 @@
 import React from 'react';
-import Header from './assets/components/Header';
-import Footer from './assets/components/Footer';
-import ParentSection from './assets/pages/ParentSection';
-import Gallery from './assets/pages/Gallery';
-import Video from './assets/pages/Video';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import ParentSection from './pages/ParentSection';
+import Gallery from './pages/Gallery';
+import Video from './pages/Video';
 
 function App() {
   // Textos longos guardados em variáveis para organizar o código
@@ -34,7 +34,7 @@ function App() {
             title="Minha Mãe, Meu Amor"
             subtitle="Homenagem à Rainha"
             text={mensagemMae}
-            image="src/assets/mae.png" 
+            image="src/assets/Mainha2.jpg" 
             reverse={false} // Texto na esquerda, imagem na direita
           />
         </section>
@@ -45,7 +45,7 @@ function App() {
             title="Meu Pai, Meu Herói"
             subtitle="Homenagem ao Exemplo"
             text={mensagemPai}
-            image="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=600" // Substitua por sua foto local
+            image="src/assets/painho.png"
             reverse={true} // Imagem na esquerda, texto na direita (Gera o efeito "Zigue-Zague" elegante)
           />
         </section>
