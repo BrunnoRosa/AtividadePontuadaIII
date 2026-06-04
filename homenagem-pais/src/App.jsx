@@ -34,7 +34,7 @@ function App() {
             title="Minha Mãe, Meu Amor"
             subtitle="Homenagem à Rainha"
             text={mensagemMae}
-            image="src/assets/Mainha2.jpg" 
+            image="src/assets/mainha2.jpg" 
             reverse={false} // Texto na esquerda, imagem na direita
           />
         </section>
