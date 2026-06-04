@@ -1,7 +1,7 @@
 import './style.css';
 import React from 'react';
-import videoFamilia from '../../assets/cortancabelo.mp4';
-import videoLocal1 from '../../assets/osdois.MP4';
+import videoFamilia from "../../assets/cortancabelo.mp4";
+import videoLocal1 from '../../assets/osdois.mp4';
 import videoLocal2 from '../../assets/reuniao-em-familia.mp4';
 import videoPoster from '../../assets/dancandocomela.mp4';
 
