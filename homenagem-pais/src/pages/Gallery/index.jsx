@@ -14,15 +14,14 @@ import 'swiper/css/pagination';
 const Gallery = () => {
   // Lista de imagens temporárias para testes (substitua pelas fotos da sua família depois)
   const fotosFamilia = [
-    { id: 1, url: 'src/assets/painhomaninha.jpg', legenda: 'Momentos inesquecíveis juntos' },
-    { id: 2, url: 'src/assets/painhomaninha2.jpg', legenda: 'Sua presença é o meu abrigo' },
-    { id: 3, url: 'src/assets/painhomaninha3.jpg', legenda: 'Casal unido pelo amor' },
-    { id: 4, url: 'src/assets/painhomaninha5.jpg', legenda: 'Sorrisos que alimentam a alma' },
-    { id: 5, url: 'src/assets/painhomaninha6.jpg', legenda: 'Cada momento é um tesouro' },
-    { id: 6, url: 'src/assets/painhomaninha7.jpg', legenda: 'Amor que transcende o tempo' },
-    { id: 7, url: 'src/assets/familiareunida.jpg', legenda: 'A força do nosso laço familiar' },
-    { id: 8, url: 'src/assets/familiareunida2.jpg', legenda: 'Juntos, somos invencíveis' },
-  ];
+    { id: 1, url: 'src/assets/Fotos/sorisso.jpg', legenda: 'Momentos inesquecíveis juntos' },
+    { id: 2, url: 'src/assets/Fotos/velinha.jpg', legenda: 'Sua presença é o meu abrigo' },
+    { id: 3, url: 'src/assets/Fotos/descanso.jpg', legenda: 'Sempre ao seu lado' },
+    { id: 4, url: 'src/assets/Fotos/felicidade.jpg', legenda: 'Sorrisos que alimentam a alma' },
+    { id: 5, url: 'src/assets/Fotos/painhocachimbo.jpg', legenda: 'Paz e Amor' },
+    { id: 6, url: 'src/assets/Fotos/palmas.jpg', legenda: 'Amor que transcende o tempo' },
+    { id: 7, url: 'src/assets/Fotos/beijo.jpg', legenda: 'Casal unido pelo amor' },
+   ];
 
   return (
     <div className="gallery-container">

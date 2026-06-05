@@ -34,7 +34,7 @@ function App() {
             title="Minha Mãe, Meu Amor"
             subtitle="Homenagem à Rainha"
             text={mensagemMae}
-            image="src/assets/mainha2.jpg" 
+            image="src/assets/Fotos/mainha.jpg" 
             reverse={false} // Texto na esquerda, imagem na direita
           />
         </section>
@@ -45,7 +45,7 @@ function App() {
             title="Meu Pai, Meu Herói"
             subtitle="Homenagem ao Exemplo"
             text={mensagemPai}
-            image="src/assets/painho.png"
+            image="src/assets/Fotos/painho.jpg"
             reverse={true} // Imagem na esquerda, texto na direita (Gera o efeito "Zigue-Zague" elegante)
           />
         </section>

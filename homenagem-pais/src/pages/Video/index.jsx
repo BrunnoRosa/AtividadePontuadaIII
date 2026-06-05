@@ -1,9 +1,10 @@
 import './style.css';
 import React from 'react';
-import videoFamilia from "../../assets/cortancabelo.mp4";
-import videoLocal1 from '../../assets/osdois.mp4';
-import videoLocal2 from '../../assets/reuniao-em-familia.mp4';
-import videoPoster from '../../assets/dancandocomela.mp4';
+import videoFamilia from "../../assets/Fotos/depoimento.mp4";
+import videoLocal1 from "../../assets/Fotos/dancando.mp4";
+import videoLocal2 from "../../assets/Fotos/cortandocabelo.mp4";
+import videoPoster from "../../assets/Fotos/dancandocomela.mp4";
+import fotoPoster from "../../assets/Fotos/felicidade.jpg";
 
 const Video = () => {
   // 1. LISTA DE VÍDEOS (Fácil de adicionar, remover ou alterar)
@@ -20,7 +21,7 @@ const Video = () => {
       titulo: "O casal mais lindo do mundo",
       descricao: "Uma homenagem em vídeo para celebrar o amor de vocês.",
       tipo: "local",
-      url: videoLocal1,
+      url: videoLocal1
     },
     {
       id: 3,
@@ -36,6 +37,7 @@ const Video = () => {
       descricao: "Um momento que nunca será esquecido.",
       tipo: "local",
       url: videoPoster,
+      poster: fotoPoster,
       
     }
   ];
