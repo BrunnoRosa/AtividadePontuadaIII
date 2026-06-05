@@ -1,17 +1,17 @@
 import './style.css';
 import React from 'react';
 import videoFamilia from "../../assets/Fotos/depoimento.mp4";
-import videoLocal1 from "../../assets/Fotos/dancando.mp4";
+import videoLocal1 from "../../assets/Fotos/casalfeliz.MP4";
 import videoLocal2 from "../../assets/Fotos/cortandocabelo.mp4";
 import videoPoster from "../../assets/Fotos/dancandocomela.mp4";
-import fotoPoster from "../../assets/Fotos/felicidade.jpg";
+import fotoPoster from "../../assets/Fotos/mae.png";
 
 const Video = () => {
   // 1. LISTA DE VÍDEOS (Fácil de adicionar, remover ou alterar)
   const listaDeVideos = [
     {
       id: 1,
-      titulo: "Mensagem Especial",
+      titulo: "Cuidando de quem sempre cuidou de mim",
       descricao: "Um momento especial para guardar no coração.",
       tipo: "local", 
       url: videoLocal2,
@@ -25,7 +25,7 @@ const Video = () => {
     },
     {
       id: 3,
-      titulo: "Nossos Momentos",
+      titulo: "Nossa família reúnida",
       descricao: "Relembrando os momentos mais especiais juntos.",
       tipo: "local", 
       url: videoFamilia,
