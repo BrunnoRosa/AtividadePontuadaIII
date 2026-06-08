@@ -14,13 +14,13 @@ import 'swiper/css/pagination';
 const Gallery = () => {
   // Lista de imagens temporárias para testes (substitua pelas fotos da sua família depois)
   const fotosFamilia = [
-    { id: 1, url: 'src/assets/Fotos/sorisso.jpg', legenda: 'Momentos inesquecíveis juntos' },
-    { id: 2, url: 'src/assets/Fotos/velinha.jpg', legenda: 'Sua presença é o meu abrigo' },
-    { id: 3, url: 'src/assets/Fotos/descanso.jpg', legenda: 'Sempre ao seu lado' },
-    { id: 4, url: 'src/assets/Fotos/felicidade.jpg', legenda: 'Sorrisos que alimentam a alma' },
-    { id: 5, url: 'src/assets/Fotos/painhocachimbo.jpg', legenda: 'Paz e Amor' },
-    { id: 6, url: 'src/assets/Fotos/palmas.jpg', legenda: 'Amor que transcende o tempo' },
-    { id: 7, url: 'src/assets/Fotos/beijo.jpg', legenda: 'Casal unido pelo amor' },
+    { id: 1, url: './sorisso.jpg', legenda: 'Momentos inesquecíveis juntos' },
+    { id: 2, url: './Fotos/velinha.jpg', legenda: 'Sua presença é o meu abrigo' },
+    { id: 3, url: './Fotos/descanso.jpg', legenda: 'Sempre ao seu lado' },
+    { id: 4, url: './Fotos/felicidade.jpg', legenda: 'Sorrisos que alimentam a alma' },
+    { id: 5, url: './Fotos/painhocachimbo.jpg', legenda: 'Paz e Amor' },
+    { id: 6, url: './Fotos/palmas.jpg', legenda: 'Amor que transcende o tempo' },
+    { id: 7, url: './Fotos/beijo.jpg', legenda: 'Casal unido pelo amor' },
    ];
 
   return (

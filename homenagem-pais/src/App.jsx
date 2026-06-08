@@ -4,9 +4,10 @@ import Footer from './components/Footer';
 import ParentSection from './pages/ParentSection';
 import Gallery from './pages/Gallery';
 import Video from './pages/Video';
+import painhoImg from './Fotos/painho.jpg'
+import mainhaImg from './Fotos/mainha.jpg'
 
 function App() {
-  // Textos longos guardados em variáveis para organizar o código
   const mensagemMae = `Mãe, obrigado por ser meu porto seguro, minha conselheira e meu maior exemplo de amor incondicional. 
   
   Seus ensinamentos moldaram quem eu sou hoje, e sua força me inspira diariamente a buscar os meus sonhos. Esta página é apenas um pedacinho da minha gratidão por tudo o que você fez e faz por mim. Te amo!`;
@@ -34,7 +35,7 @@ function App() {
             title="Minha Mãe, Meu Amor"
             subtitle="Homenagem à Rainha"
             text={mensagemMae}
-            image="src/assets/Fotos/mainha.jpg" 
+            image= {mainhaImg} 
             reverse={false} // Texto na esquerda, imagem na direita
           />
         </section>
@@ -45,7 +46,7 @@ function App() {
             title="Meu Pai, Meu Herói"
             subtitle="Homenagem ao Exemplo"
             text={mensagemPai}
-            image="src/assets/Fotos/painho.jpg"
+            image={painhoImg}
             reverse={true} // Imagem na esquerda, texto na direita (Gera o efeito "Zigue-Zague" elegante)
           />
         </section>
