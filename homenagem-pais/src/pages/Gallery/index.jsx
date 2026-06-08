@@ -12,16 +12,16 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
 const Gallery = () => {
-  // Lista de imagens temporárias para testes (substitua pelas fotos da sua família depois)
   const fotosFamilia = [
-    { id: 1, url: 'homenagem-pais/public/fotos/sorisso.jpg', legenda: 'Momentos inesquecíveis juntos' },
-    { id: 2, url: '../fotos/velinha.jpg', legenda: 'Sua presença é o meu abrigo' },
-    { id: 3, url: '../fotos/descanso.jpg', legenda: 'Sempre ao seu lado' },
-    { id: 4, url: '../fotos/felicidade.jpg', legenda: 'Sorrisos que alimentam a alma' },
-    { id: 5, url: '../fotos/painhocachimbo.jpg', legenda: 'Paz e Amor' },
-    { id: 6, url: '../fotos/palmas.jpg', legenda: 'Amor que transcende o tempo' },
-    { id: 7, url: '../fotos/beijo.jpg', legenda: 'Casal unido pelo amor' },
+    { id: 1, url: '/fotos/sorisso.jpg', legenda: 'Momentos inesquecíveis juntos' },
+    { id: 2, url: '/fotos/velinha.jpg', legenda: 'Sua presença é o meu abrigo' },
+    { id: 3, url: '/fotos/descanso.jpg', legenda: 'Sempre ao seu lado' },
+    { id: 4, url: '/fotos/felicidade.jpg', legenda: 'Sorrisos que alimentam a alma' },
+    { id: 5, url: '/fotos/painhocachimbo.jpg', legenda: 'Paz e Amor' },
+    { id: 6, url: '/fotos/palmas.jpg', legenda: 'Amor que transcende o tempo' },
+    { id: 7, url: '/fotos/beijo.jpg', legenda: 'Casal unido pelo amor' },
    ];
+
 
   return (
     <div className="gallery-container">
