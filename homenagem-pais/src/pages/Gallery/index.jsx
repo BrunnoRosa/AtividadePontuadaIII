@@ -11,7 +11,8 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
-const Gallery = () => {
+const Gallery = () => { 
+  
   const fotosFamilia = [
     { id: 1, url: '/fotos/sorisso.jpg', legenda: 'Momentos inesquecíveis juntos' },
     { id: 2, url: '/fotos/velinha.jpg', legenda: 'Sua presença é o meu abrigo' },
