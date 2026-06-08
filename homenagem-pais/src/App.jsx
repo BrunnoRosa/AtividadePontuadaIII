@@ -4,8 +4,8 @@ import Footer from './components/Footer';
 import ParentSection from './pages/ParentSection';
 import Gallery from './pages/Gallery';
 import Video from './pages/Video';
-import painhoImg from './Fotos/painho.jpg'
-import mainhaImg from './Fotos/mainha.jpg'
+import painhoImg from '../public/fotos/painho.jpg'
+import mainhaImg from '../public/fotos/mainha.jpg'
 
 function App() {
   const mensagemMae = `Mãe, obrigado por ser meu porto seguro, minha conselheira e meu maior exemplo de amor incondicional. 

@@ -1,10 +1,10 @@
 import './style.css';
 import React from 'react';
-import videoFamilia from "../../assets/Fotos/depoimento.mp4";
-import videoLocal1 from "../../assets/Fotos/casalfeliz.MP4";
-import videoLocal2 from "../../assets/Fotos/cortandocabelo.mp4";
-import videoPoster from "../../assets/Fotos/dancandocomela.mp4";
-import fotoPoster from "../../assets/Fotos/mae.png";
+import videoFamilia from "../../fotos/depoimento.mp4";
+import videoLocal1 from "../../fotos/casalfeliz.MP4";
+import videoLocal2 from "../../fotos/cortandocabelo.mp4";
+import videoPoster from "../../fotos/dancandocomela.mp4";
+import fotoPoster from "../../fotos/mae.jpg";
 
 const Video = () => {
   // 1. LISTA DE VÍDEOS (Fácil de adicionar, remover ou alterar)
