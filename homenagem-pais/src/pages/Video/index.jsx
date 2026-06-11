@@ -4,7 +4,7 @@ import videoFamilia from "../../../public/fotos/depoimento.mp4";
 import videoLocal1 from "../../../public/fotos/casalfeliz.mp4";
 import videoLocal2 from "../../../public/fotos/cortandocabelo.mp4";
 import videoPoster from "../../../public/fotos/dancandocomela.mp4";
-import fotoPoster from "../../../public/fotos/mae.jpg";
+import fotoPoster from "../../../public/fotos/mainha.jpg";
 
 const Video = () => {
   // 1. LISTA DE VÍDEOS (Fácil de adicionar, remover ou alterar)
